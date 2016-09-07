@@ -18,7 +18,12 @@ body {
   font-size: 1.6em;
   position: fixed;
   z-index: 1;
-  color: #F7F4EA;
+  color: #ADF5FF;
+}
+
+/* nav color on hover */
+#nav-link:hover {
+  color: #7CDEDC;
 }
 
 /* right alignment */ 
@@ -33,8 +38,8 @@ body {
   height: 60px;
   width: 500px;
   margin: 15% 30% 0 30%;
-  font-size: 300%;
-  color: #F5EFFF;
+  font-size: 350%;
+  color: #F8F7FF;
   letter-spacing: 2px;
   border-bottom: 2px solid #F5EFFF;
   text-align: center;
@@ -51,8 +56,28 @@ body {
 /* footer on page one */
 footer {
   position: fixed; 
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   bottom: 0;
 }
 
+/* footer elements style */
+.footer-element {
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  color: #F8F7FF;
+  font-size: 200%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* adding a left border to two of the elements */
+.footer-element:not(:first-child) {
+  border-left: 1px solid #ADF5FF;
+}
+
+/* change elements on hover */
+.footer-element:hover {
+  color: #7CDEDC;
+}
