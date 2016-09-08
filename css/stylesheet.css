@@ -39,9 +39,18 @@ body {
   color: white;
 }
 
+#page-three-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .gif {
-  height: 20em;
+  height: 15em;
   width: 20em;
+  z-index: 1;
+  margin: 0 auto;
 }
 
 #drop-menu {
