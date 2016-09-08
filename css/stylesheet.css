@@ -1,6 +1,7 @@
 body {
   max-width: 100%;
-  height: 100%;
+  max-height: 100%;
+  background-color: black;
 }
 
 /* page on background */
@@ -19,11 +20,12 @@ body {
   position: fixed;
   z-index: 1;
   color: #ADF5FF;
+  padding-top: .5em;
 }
 
 /* nav color on hover */
 #nav-link:hover {
-  color: #7CDEDC;
+  color: #CC4BC2;
 }
 
 /* right alignment */ 
@@ -36,18 +38,18 @@ body {
 .h1-title {
   font-family: 'Lobster', cursive;
   height: 60px;
-  width: 500px;
-  margin: 15% 30% 0 30%;
+  width: 600px;
+  margin: 15% 30% 0 25%;
   font-size: 350%;
-  color: #F8F7FF;
-  letter-spacing: 2px;
-  border-bottom: 2px solid #F5EFFF;
+  color: #CEE5F2;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ADF5FF;
   text-align: center;
 }
 
 /* black veil */ 
 .veil {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -55,29 +57,33 @@ body {
 
 /* footer on page one */
 footer {
-  position: fixed; 
+  margin-top: 31%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  bottom: 0;
 }
 
 /* footer elements style */
 .footer-element {
   text-decoration: none;
   font-family: 'Lobster', cursive;
-  color: #F8F7FF;
+  color: #ADF5FF;
   font-size: 200%;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* adding a left border to two of the elements */
-.footer-element:not(:first-child) {
-  border-left: 1px solid #ADF5FF;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 /* change elements on hover */
 .footer-element:hover {
-  color: #7CDEDC;
+  color: #CC4BC2;
 }
+
+#page-two-background {
+  background-image: url('../images/cannibal-kid.jpg');
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+
