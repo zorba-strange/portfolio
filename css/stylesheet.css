@@ -14,24 +14,48 @@ body {
 }
 
 /* nav link */
-#nav-link {
+.nav-link {
   border: none;
   font-size: 1.6em;
   position: fixed;
   z-index: 1;
-  color: #bb0a1e; 
+  color: #F7F7F7; 
   padding-top: .5em;
 }
 
 /* nav color on hover */
-#nav-link:hover {
+.nav-link:hover {
   color: #CC4BC2;
 }
 
 /* right alignment */ 
 .right-align {
   text-align: right;
-  margin-right: 3%;
+  margin-right: 5%;
+  display: block;
+}
+
+.item {
+  color: white;
+}
+
+.gif {
+  height: 20em;
+  width: 20em;
+}
+
+#drop-menu {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  margin-top: 1em;
+}
+
+.drop {
+  font-size: 150%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* h1 titles */
@@ -42,7 +66,7 @@ body {
   margin: 0 auto;
   margin-top: 15%;
   font-size: 350%;
-  color: #C4CAD0;
+  color: #F7F7F7;
   letter-spacing: 1px;
   border-bottom: 2px solid #878C8F;
   text-align: center;
@@ -88,7 +112,7 @@ body {
 
 /* change elements on hover */
 .footer-element:hover {
-  color: #6A706E
+  color: #3A86FF;
 }
 
 /* page two image style */
@@ -126,3 +150,21 @@ a:hover {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
   font-size: 150%;
 }
+
+#page-four-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icon {
+  margin-left: 3em;
+  margin-right: 3em;
+  height: 5em;
+  width: 5em;
+  z-index: 1;
+}
+
