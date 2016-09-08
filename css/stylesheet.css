@@ -9,8 +9,8 @@ body {
   background-image: url('../images/god-of-wine.jpg');
   background-size: cover;
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 /* nav link */ 
@@ -19,7 +19,7 @@ body {
   font-size: 1.6em;
   position: fixed;
   z-index: 1;
-  color: #ADF5FF;
+  color: #bb0a1e; 
   padding-top: .5em;
 }
 
@@ -37,27 +37,41 @@ body {
 /* h1 titles */
 .h1-title {
   font-family: 'Lobster', cursive;
-  height: 60px;
+  /* height: 60px; */
+  /* width: 600px; */
+  /* margin: 15% 30% 0 25%; */
+  display: block;
   width: 600px;
-  margin: 15% 30% 0 25%;
+  margin: 0 auto;
+  margin-top: 15%;
   font-size: 350%;
-  color: #CEE5F2;
+  color: #C4CAD0;
   letter-spacing: 1px;
-  border-bottom: 2px solid #ADF5FF;
+  border-bottom: 2px solid #878C8F;
+  text-align: center;
+}
+
+#h3-page-one {
+  font-family: 'Lobster', cursive;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 120%;
+  letter-spacing: 2px;
+  color: #C4CAD0;
   text-align: center;
 }
 
 /* black veil */ 
 .veil {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 /* footer on page one */
 footer {
-  margin-top: 31%;
+  margin-top: 28%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,7 +82,7 @@ footer {
 .footer-element {
   text-decoration: none;
   font-family: 'Lobster', cursive;
-  color: #ADF5FF;
+  color: #C4CAD0;
   font-size: 200%;
   padding-left: .5em;
   padding-right: .5em;
@@ -76,14 +90,43 @@ footer {
 
 /* change elements on hover */
 .footer-element:hover {
-  color: #CC4BC2;
+  color: #6A706E
 }
 
-#page-two-background {
-  background-image: url('../images/cannibal-kid.jpg');
-  background-size: contain;
+/* page two image style */
+#page-two-image {
+  margin-left: 1em;
   height: 100vh;
-  background-repeat: no-repeat;
 }
 
+/* page two wrapper */
+#page-two-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* remove all style of a links on hover */
+a:hover {
+  text-decoration: none;
+}
+
+/* h2 titles */
+.h2-title {
+  margin-top: -5em;
+  padding: 0;
+}
+
+/* about wrapper */
+#about-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lobster', cursive;
+  color: #C4CAD0;
+}
+
+p {
+  margin: 0 3em 0 3em;
+}
 
