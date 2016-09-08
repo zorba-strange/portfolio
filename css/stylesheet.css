@@ -13,7 +13,7 @@ body {
   width: 100%;
 }
 
-/* nav link */ 
+/* nav link */
 #nav-link {
   border: none;
   font-size: 1.6em;
@@ -37,9 +37,6 @@ body {
 /* h1 titles */
 .h1-title {
   font-family: 'Lobster', cursive;
-  /* height: 60px; */
-  /* width: 600px; */
-  /* margin: 15% 30% 0 25%; */
   display: block;
   width: 600px;
   margin: 0 auto;
@@ -70,12 +67,12 @@ body {
 }
 
 /* footer on page one */
-footer {
-  margin-top: 28%;
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  margin-top: 20em;
 }
 
 /* footer elements style */
@@ -86,6 +83,7 @@ footer {
   font-size: 200%;
   padding-left: .5em;
   padding-right: .5em;
+  z-index: 1;
 }
 
 /* change elements on hover */
@@ -103,7 +101,7 @@ footer {
 #page-two-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
 }
 
 /* remove all style of a links on hover */
@@ -113,20 +111,18 @@ a:hover {
 
 /* h2 titles */
 .h2-title {
-  margin-top: -5em;
-  padding: 0;
 }
 
 /* about wrapper */
 #about-wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  margin-top: -22em;
   font-family: 'Lobster', cursive;
   color: #C4CAD0;
+  text-align: center;
 }
 
-p {
-  margin: 0 3em 0 3em;
+#about-info {
+  margin: -13em 3em 0 3em;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
+  font-size: 150%;
 }
-
