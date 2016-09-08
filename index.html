@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
 
     <!-- Javascript -->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
     <script src="script.js"></script>
 
     <!-- Bootstrap/jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -27,23 +32,39 @@
 
     <!-- Stylesheet/Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/normalize.css">
-    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+
 
     <title>Winston</title>
   </head>
-  <body>
+  <body data-hijacking="off" data-animation="scaleDown">
     <div class="right-align"><span class="glyphicon glyphicon-align-justify" id="nav-link"
                                                                              aria-hidden="true"></span></div>
-    <div id="page-one-background">
-      <div class="veil">
-        <h1 class="h1-title">Winston Davis McLean</h1>
-        <footer>
-          <h3 class="footer-element">Home</h3>
-          <h3 class="footer-element">About</h3>
-          <h3 class="footer-element">Work</h3>
-        </footer>
+    <section class="cd-section visible">
+      <div>
+        <div id="page-one-background">
+          <div class="veil">
+            <h1 class="h1-title">Winston Davis McLean</h1>
+            <footer>
+              <h3 class="footer-element">Home</h3>
+              <h3 class="footer-element">About</h3>
+              <h3 class="footer-element">Work</h3>
+            </footer>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="cd-section">
+      <div>
+        <h2>Section 2</h2>
+      </div>
+    </section>
+
   </body>
 </html>
