@@ -38,6 +38,9 @@ body {
 .item {
   color: white;
 }
+.item:hover {
+  color: #CC4BC2;
+}
 
 #page-three-wrapper {
   display: flex;
