@@ -54,6 +54,7 @@ body {
   width: 20em;
   z-index: 1;
   margin: 0 auto;
+  padding: 1em 1em;
 }
 
 #drop-menu {
