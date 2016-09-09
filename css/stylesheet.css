@@ -37,6 +37,7 @@ body {
 
 .item {
   color: white;
+  font-family: 'Lobster', cursive;
 }
 .item:hover {
   color: #CC4BC2;
@@ -154,12 +155,13 @@ a:hover {
 }
 
 /* h2 titles */
-.h2-title {
+.cd-section .h2-title {
+  line-height: 17em;
 }
 
 /* about wrapper */
 #about-wrapper {
-  margin-top: -22em;
+  margin-top: -18em;
   font-family: 'Lobster', cursive;
   color: #C4CAD0;
   text-align: center;
