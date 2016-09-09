@@ -1,0 +1,8 @@
+ A painter turned coder who fell in love the first time "Hello World"
+ printed in the terminal. For me, coding combines the logical
+ reasoning of a mathematician, the vision of an eccentric painter, while 
+ whittling complexity into simplicity, becoming a work of art. After
+ earning my bachelor's degree from a Buddhist University, I went from being a
+ painter, to a vagabond, to a nanny, and for a moment almost became a foreign
+ language English teacher, but then it happened. Two words changed
+ everything. Hello World.
