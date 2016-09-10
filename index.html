@@ -3,12 +3,6 @@
   <head>
     <meta charset="UTF-8">
 
-    <!-- Javascript -->
-    <script src="js/jquery-2.1.4.js"></script>
-    <script src="js/velocity.min.js"></script>
-    <script src="js/velocity.ui.min.js"></script>
-    <script src="js/main.js"></script> <!-- Resource jQuery -->
-    <script src="script.js"></script>
 
     <!-- Bootstrap/jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -30,15 +24,22 @@
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
 
+    <!-- Javascript -->
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/textillate.js"></script> <!-- Textillate-->
+    <script src="js/Lettering.js"></script> <!--Lettering-->
+    <script src="js/script.js"></script>
+
     <!-- Stylesheet/Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="css/Animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/stylesheet.css">
-
-
 
     <title>Winston</title>
   </head>
@@ -61,8 +62,17 @@
     <section class="cd-section visible">
       <div id="page-one-background">
         <div class="veil">
-          <h1 class="h1-title">Winston Davis McLean</h1>
-          <h3 id="h3-page-one">Full Stack Web Developer | VIM Enthusiast</h3>
+          <h1 class="strong-courier tlt"
+              id="h1-page-one"
+              data-in-effect="fadeIn">
+            <ul class="texts">
+              <li data-out-effect="fadeOut">DEVELOPER.</li>
+              <li data-in-effect="fadeIn">PAINTER.</li>
+              <li data-in-effect="fadeIn">DESIGNER.</li>
+            </ul>
+          </h1>
+
+          <h1 class="h1-title strong-courier">Winston Davis McLean</h1>
           <footer class="footer">
             <a href="#page-two" class="footer-element">About</a>
             <a href="#page-three" class="footer-element">Work</a>
@@ -98,9 +108,9 @@
           <div> 
             <div id="page-three-wrapper">
               <div class="column-flex">
-              <h2 class="h2-work-title">Epic</h2>
-              <a href="https://zorba-strange.github.io/"><img class="gif"
-                                                              src="images/epic-gif.gif" alt="epic gif"></a>
+                <h2 class="h2-work-title">Epic</h2>
+                <a href="https://zorba-strange.github.io/"><img class="gif"
+                                                                src="images/epic-gif.gif" alt="epic gif"></a>
               </div>
               <div class="column-flex">
                 <h2 class="h2-work-title">Towers of Hanoi</h2>

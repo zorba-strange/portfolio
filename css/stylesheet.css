@@ -4,44 +4,119 @@ body {
   background-color: black;
 }
 
+/* ==== PAGE ONE START ==== */ 
 /* page on background */
 #page-one-background {
-  background-image: url('../images/god-of-wine.jpg');
+  background-image: url('../images/dotfiles-screenshot.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
 }
 
+/* h1 titles */
+.h1-title {
+  width: 10em;
+  margin: 0 auto;
+  margin-top: 1%;
+  font-size: 200%;
+  color: #F9F8F8;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* h1 text */ 
+#h1-page-one {
+  margin-top: 15%;
+  margin-left: -9%;
+  width: 9em;
+  font-size: 520%;
+  color: #E8EEF2;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1em;
+  border-bottom: 5px solid #F0F7F4;
+  overflow: visible;
+}
+
+/* black veil */ 
+.veil {
+  margin: 0 25% 0 25%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 50vw;
+  display: block;
+}
+
+/* footer on page one */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vw;
+  margin-top: 25em;
+}
+
+/* footer elements style */
+.footer-element {
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  color: #77B6EA;
+  font-size: 200%;
+  padding-left: .5em;
+  padding-right: .5em;
+  z-index: 1;
+}
+
+/* change elements on hover */
+.footer-element:hover {
+  color: #CC4BC2;
+}
+
+/* NAV BAR START */
 /* nav link */
 .nav-link {
   border: none;
   font-size: 1.6em;
   position: fixed;
   z-index: 1;
-  color: #F7F7F7; 
+  color: #77B6EA; 
   padding-top: .5em;
 }
 
-/* nav color on hover */
+/* nav bar color on hover */
 .nav-link:hover {
   color: #CC4BC2;
 }
 
-/* right alignment */ 
-.right-align {
-  text-align: right;
-  margin-right: 5%;
-  display: block;
-}
-
-.item {
-  color: white;
+/* nav bar links */
+.items {
+  color: #EBF5EE;
   font-family: 'Lobster', cursive;
 }
+
 .item:hover {
   color: #CC4BC2;
 }
+
+/* dropdown menu */ 
+#drop-menu {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  margin-top: 1em;
+}
+
+.drop {
+  font-size: 150%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* NAV BAR END */
+/* ==== PAGE ONE END ==== */
 
 #page-three-wrapper {
   display: flex;
@@ -58,19 +133,6 @@ body {
   padding: 1em 1em;
 }
 
-#drop-menu {
-  width: 100vw;
-  position: fixed;
-  z-index: 1;
-  margin-top: 1em;
-}
-
-.drop {
-  font-size: 150%;
-  text-align: center;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0);
-}
 
 .column-flex {
   height: 15em;
@@ -79,67 +141,15 @@ body {
   align-items: center;
 }
 
-/* h1 titles */
-.h1-title {
-  font-family: 'Lobster', cursive;
-  display: block;
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 15%;
-  font-size: 350%;
-  color: #F7F7F7;
-  letter-spacing: 1px;
-  border-bottom: 2px solid #878C8F;
-  text-align: center;
-}
 
-#h3-page-one {
-  font-family: 'Lobster', cursive;
-  margin: 0 auto;
-  margin-top: 1em;
-  font-size: 120%;
-  letter-spacing: 2px;
-  color: #C4CAD0;
-  text-align: center;
-}
-
-/* black veil */ 
-.veil {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-}
-
-/* footer on page one */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100vw;
-  margin-top: 20em;
-}
-
-/* footer elements style */
-.footer-element {
-  text-decoration: none;
-  font-family: 'Lobster', cursive;
-  color: #C4CAD0;
-  font-size: 200%;
-  padding-left: .5em;
-  padding-right: .5em;
-  z-index: 1;
-}
-
-/* change elements on hover */
-.footer-element:hover {
-  color: #3A86FF;
-}
+/* ==== PAGE TWO START ==== */
 
 /* page two image style */
 #page-two-image {
-  margin-left: 1em;
-  height: 100vh;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 90vh;
 }
 
 /* page two wrapper */
@@ -147,6 +157,30 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: flex-start;
+  background-color: #F6EFEE;
+}
+
+/* h2 titles */
+.cd-section .h2-title {
+  line-height: 1em;
+  border-bottom: 1px solid #3C3744;
+  font-size: 350%;
+  padding-bottom: .5em;
+}
+
+/* about wrapper */
+#about-wrapper {
+  margin-top: -18em;
+  font-family: 'Lobster', cursive;
+  color: #3C3744;
+  text-align: center;
+}
+
+#about-info {
+  margin: 1em 3em 0 3em;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
+  font-size: 150%;
 }
 
 /* remove all style of a links on hover */
@@ -154,24 +188,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* h2 titles */
-.cd-section .h2-title {
-  line-height: 17em;
-}
 
-/* about wrapper */
-#about-wrapper {
-  margin-top: -18em;
-  font-family: 'Lobster', cursive;
-  color: #C4CAD0;
-  text-align: center;
-}
-
-#about-info {
-  margin: -13em 3em 0 3em;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
-  font-size: 150%;
-}
 
 #page-four-wrapper {
   height: 100vh;
@@ -197,3 +214,18 @@ a:hover {
   font-family: 'Lobster', cursive;
 }
 
+/* ==== GENERAL CLASS STYLING START ==== */
+/* right alignment */ 
+.right-align {
+  text-align: right;
+  margin-right: 5%;
+  display: block;
+}
+
+/* weighted font */
+.strong-courier {
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+/* ==== GENERAL CLASS STYLING END ==== */
