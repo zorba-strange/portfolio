@@ -4,6 +4,12 @@ body {
 }
 
 /* ==== PAGE ONE START ==== */ 
+/* page one wrapper */ 
+#page-wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
 /* page on background */
 #page-one-background {
   background-image: url('../images/dotfiles-screenshot.png');
@@ -26,9 +32,9 @@ body {
 
 /* h1 text */ 
 #h1-page-one {
+  margin: 0 auto;
   margin-top: 15%;
-  margin-left: -9%;
-  width: 9em;
+  width: 50vw;
   font-size: 520%;
   color: #E8EEF2;
   font-weight: bold;
@@ -45,7 +51,6 @@ body {
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   width: 50vw;
-  display: block;
 }
 
 /* footer on page one */
