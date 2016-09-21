@@ -192,8 +192,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-
 #page-four-wrapper {
   height: 100vh;
   display: flex;
@@ -211,11 +209,28 @@ a:hover {
   z-index: 1;
 }
 
-
 .cd-section .h2-work-title {
   color: white;
   line-height: 1em;
   font-family: 'Lobster', cursive;
+}
+
+.project-info {
+  position: absolute;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+}
+
+#epic-wrapper:hover .project-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+#tower-wrapper:hover .project-info {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* ==== GENERAL CLASS STYLING START ==== */
