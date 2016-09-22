@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   margin-top: 1%;
   font-size: 200%;
-  color: #F9F8F8;
+  color: #E8EEF2;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -36,8 +36,8 @@ body {
   margin-top: 15%;
   width: 50vw;
   font-size: 520%;
-  color: #E8EEF2;
   font-weight: bold;
+  color: #F9F8F8;
   text-align: center;
   line-height: 1em;
   border-bottom: 5px solid #F0F7F4;
@@ -66,7 +66,7 @@ body {
 .footer-element {
   text-decoration: none;
   font-family: 'Lobster', cursive;
-  color: #77B6EA;
+  color: #F9F8F8;
   font-size: 200%;
   padding-left: .5em;
   padding-right: .5em;
@@ -75,79 +75,11 @@ body {
 
 /* change elements on hover */
 .footer-element:hover {
-  color: #CC4BC2;
+  color: #77B6EA;
 }
-
-/* NAV BAR START */
-/* nav link */
-.nav-link {
-  border: none;
-  font-size: 1.6em;
-  position: fixed;
-  z-index: 1;
-  color: #77B6EA; 
-  padding-top: .5em;
-}
-
-/* nav bar color on hover */
-.nav-link:hover {
-  color: #CC4BC2;
-}
-
-/* nav bar links */
-.items {
-  color: #EBF5EE;
-  font-family: 'Lobster', cursive;
-}
-
-.item:hover {
-  color: #CC4BC2;
-}
-
-/* dropdown menu */ 
-#drop-menu {
-  width: 100vw;
-  position: fixed;
-  z-index: 1;
-  margin-top: 1em;
-}
-
-.drop {
-  font-size: 150%;
-  text-align: center;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-/* NAV BAR END */
 /* ==== PAGE ONE END ==== */
 
-#page-three-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.gif {
-  height: 15em;
-  width: 20em;
-  z-index: 1;
-  margin: 0 auto;
-  padding: 1em 1em;
-}
-
-
-.column-flex {
-  height: 15em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
 /* ==== PAGE TWO START ==== */
-
 /* page two image style */
 #page-two-image {
   margin-left: 2em;
@@ -159,14 +91,15 @@ body {
 /* page two wrapper */
 #page-two-wrapper {
   display: flex;
+  height: 100vh;
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
   background-color: #F6EFEE;
 }
 
-/* h2 titles */
-.cd-section .h2-title {
+/* page two h2 titles */
+.cd-section .page2-h2-title {
   line-height: 1em;
   border-bottom: 1px solid #3C3744;
   font-size: 350%;
@@ -185,12 +118,77 @@ body {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
   font-size: 150%;
 }
+ /* ==== PAGE TWO END ==== */ 
 
-/* remove all style of a links on hover */
-a:hover {
-  text-decoration: none;
+ /* ==== PAGE THREE START ==== */
+
+#page-three-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+.gif {
+  height: 12em;
+  width: 17em;
+  z-index: 1;
+  padding: 1em 1em;
+  text-align: center;
+  position: relative;
+}
+
+.cd-section .h2-work-title {
+  line-height: 1em;
+  font-family: 'Lobster', cursive;
+  color: #F9F8F8;
+  color: #3C3744;
+  font-size: 200%;
+  text-align: center;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-wrapper {
+  height: 18em; 
+  position: relative;
+}
+
+.project-info {
+  position: absolute;
+  height: 60%;
+  top: .5em;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;;
+  z-index: 1;
+  background: rgba(0, 0, 0, .7);
+  background: rgba(96, 94, 93, .7);
+  font-size: 120%;
+  font-weight: bold;
+  color: #F9F8F8;
+  visibility: hidden;
+  padding-top: 5%;
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#epic-wrapper:hover .project-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+#tower-wrapper:hover .project-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+ /* ==== PAGE THREE END ==== */
+
+/* ==== PAGE FOUR START ==== */
 #page-four-wrapper {
   height: 100vh;
   display: flex;
@@ -208,29 +206,7 @@ a:hover {
   z-index: 1;
 }
 
-.cd-section .h2-work-title {
-  color: white;
-  line-height: 1em;
-  font-family: 'Lobster', cursive;
-}
-
-.project-info {
-  position: absolute;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-}
-
-#epic-wrapper:hover .project-info {
-  visibility: visible;
-  opacity: 1;
-}
-
-#tower-wrapper:hover .project-info {
-  visibility: visible;
-  opacity: 1;
-}
+ /* ==== PAGE FOUR END ==== */
 
 /* ==== GENERAL CLASS STYLING START ==== */
 /* right alignment */ 
@@ -246,4 +222,8 @@ a:hover {
   font-weight: bold;
 }
 
+/* remove all style of a links on hover */
+a:hover {
+  text-decoration: none;
+}
 /* ==== GENERAL CLASS STYLING END ==== */
