@@ -71,9 +71,11 @@ Main Components
 .cd-section:nth-of-type(2) > div {
   background-color: #9F9AA4;
   background-color: #F6EFEE;
+  background-color: rgb(87, 172, 203); 
 }
 .cd-section:nth-of-type(3) > div {
   background-color: #1B2021;
+  background-color: rgb(87, 172, 203); 
 }
 .cd-section:nth-of-type(4) > div {
   background-color: #fcb052;

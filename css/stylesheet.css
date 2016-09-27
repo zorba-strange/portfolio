@@ -1,20 +1,80 @@
 body {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: Courier New;
 }
 
 /* ==== PAGE ONE START ==== */ 
 /* page one wrapper */ 
+/* CODE BACKGROUND START */
+.code {
+  margin: 8em 3em 0 0;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+  line-height: 1.5;
+  position: absolute;
+}
+
+.func {
+  margin-left: 55em;
+}
+
+#func {
+  color: rgb(171, 73, 153); 
+}
+
+.con {
+  margin-left: 60em;
+}
+
+.conC {
+  color: rgb(0, 244, 44);
+}
+
+.var {
+  margin-left: 60em;
+}
+
+#var {
+  color: rgb(203, 87, 172);
+}
+
+#bool {
+  color: rgb(0, 77, 244);
+}
+
+#while {
+  color: rgb(0, 244, 44);
+}
+
+.while {
+  margin-left: 60em;
+}
+
+.code-funcs {
+  margin-left: 70em;
+  color: rgb(171, 73, 153); 
+}
+
+#oneB {
+  margin-left: 60em;
+}
+
+#twoB {
+  margin-left: 55em;
+}
+
+/* CODE BACKGROUND END */
 #page-wrapper {
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 /* page on background */
 #page-one-background {
-  background-image: url('../images/dotfiles-screenshot.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(87, 172, 203); 
   height: 100vh;
   width: 100%;
 }
@@ -22,7 +82,7 @@ body {
 /* h1 titles */
 .h1-title {
   width: 10em;
-  margin: 0 auto;
+  margin-left: 8em;
   margin-top: 1%;
   font-size: 200%;
   color: #E8EEF2;
@@ -32,8 +92,7 @@ body {
 
 /* h1 text */ 
 #h1-page-one {
-  margin: 0 auto;
-  margin-top: 15%;
+  margin: 4em 0 0 1em; 
   width: 50vw;
   font-size: 520%;
   font-weight: bold;
@@ -44,30 +103,17 @@ body {
   overflow: visible;
 }
 
-/* black veil */ 
-.veil {
-  margin: 0 25% 0 25%;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.7);
-  height: 100vh;
+nav {
+  margin: 2em 0 0 4.5em; 
   width: 50vw;
-}
-
-/* footer on page one */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 50vw;
-  margin-top: 25em;
 }
 
 /* footer elements style */
 .footer-element {
   text-decoration: none;
-  font-family: 'Lobster', cursive;
   color: #F9F8F8;
   font-size: 200%;
+  font-weight: bold;
   padding-left: .5em;
   padding-right: .5em;
   z-index: 1;
@@ -75,7 +121,7 @@ body {
 
 /* change elements on hover */
 .footer-element:hover {
-  color: #77B6EA;
+  color: rgb(203, 87, 172);
 }
 /* ==== PAGE ONE END ==== */
 
